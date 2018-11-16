@@ -21,6 +21,7 @@ import {AdvancedPieChartComponent} from './advanced-pie-chart/advanced-pie-chart
 import {PieGridChartComponent} from './pie-grid-chart/pie-grid-chart.component';
 import {VerticalBarChartComponent} from './vertical-bar-chart/vertical-bar-chart.component';
 import {HorizontalBarChartComponent} from './horizontal-bar-chart/horizontal-bar-chart.component';
+import { GroupedVerticalBarChartComponent } from './grouped-vertical-bar-chart/grouped-vertical-bar-chart.component';
 
 @NgModule({
     declarations: [
@@ -36,7 +37,8 @@ import {HorizontalBarChartComponent} from './horizontal-bar-chart/horizontal-bar
         AdvancedPieChartComponent,
         PieGridChartComponent,
         VerticalBarChartComponent,
-        HorizontalBarChartComponent
+        HorizontalBarChartComponent,
+        GroupedVerticalBarChartComponent
     ],
     imports: [
         BrowserModule,
