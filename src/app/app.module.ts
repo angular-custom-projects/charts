@@ -25,7 +25,8 @@ import {GroupedVerticalBarChartComponent} from './grouped-vertical-bar-chart/gro
 import {GroupedHorizontalBarChartComponent} from './grouped-horizontal-bar-chart/grouped-horizontal-bar-chart.component';
 import {StackedVarticalBarChartComponent} from './stacked-vartical-bar-chart/stacked-vartical-bar-chart.component';
 import {StackedHorizontalBarChartComponent} from './stacked-horizontal-bar-chart/stacked-horizontal-bar-chart.component';
-import { NormalizedVarticalBarChartComponent } from './normalized-vartical-bar-chart/normalized-vartical-bar-chart.component';
+import {NormalizedVarticalBarChartComponent} from './normalized-vartical-bar-chart/normalized-vartical-bar-chart.component';
+import {NormalizedHorizontalBarChartComponent} from './normalized-horizontal-bar-chart/normalized-horizontal-bar-chart.component';
 
 @NgModule({
     declarations: [
@@ -46,7 +47,8 @@ import { NormalizedVarticalBarChartComponent } from './normalized-vartical-bar-c
         GroupedHorizontalBarChartComponent,
         StackedVarticalBarChartComponent,
         StackedHorizontalBarChartComponent,
-        NormalizedVarticalBarChartComponent
+        NormalizedVarticalBarChartComponent,
+        NormalizedHorizontalBarChartComponent
     ],
     imports: [
         BrowserModule,
