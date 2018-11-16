@@ -15,8 +15,9 @@ import {MenuListItemComponent} from './menu-list-item/menu-list-item.component';
 import {HomeComponent} from './home/home.component';
 import {AreaChartComponent} from './area-chart/area-chart.component';
 import {StackedAreaChartComponent} from './stacked-area-chart/stacked-area-chart.component';
-import { NormalizedAreaChartComponent } from './normalized-area-chart/normalized-area-chart.component';
-import { PieChartComponent } from './pie-chart/pie-chart.component';
+import {NormalizedAreaChartComponent} from './normalized-area-chart/normalized-area-chart.component';
+import {PieChartComponent} from './pie-chart/pie-chart.component';
+import {AdvancedPieChartComponent} from './advanced-pie-chart/advanced-pie-chart.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +29,8 @@ import { PieChartComponent } from './pie-chart/pie-chart.component';
         AreaChartComponent,
         StackedAreaChartComponent,
         NormalizedAreaChartComponent,
-        PieChartComponent
+        PieChartComponent,
+        AdvancedPieChartComponent
     ],
     imports: [
         BrowserModule,
