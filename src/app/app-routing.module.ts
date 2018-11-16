@@ -9,6 +9,7 @@ import {StackedAreaChartComponent} from './stacked-area-chart/stacked-area-chart
 import {NormalizedAreaChartComponent} from './normalized-area-chart/normalized-area-chart.component';
 import {PieChartComponent} from './pie-chart/pie-chart.component';
 import {AdvancedPieChartComponent} from './advanced-pie-chart/advanced-pie-chart.component';
+import {PieGridChartComponent} from './pie-grid-chart/pie-grid-chart.component';
 
 
 const appRoutes: Routes = [
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
     {path: 'normalized-area-chart', component: NormalizedAreaChartComponent},
     {path: 'pie-chart', component: PieChartComponent},
     {path: 'advanced-pie-chart', component: AdvancedPieChartComponent},
+    {path: 'pie-grid-chart', component: PieGridChartComponent},
     {path: '**', component: PageNotFoundComponent}
 ];
 
