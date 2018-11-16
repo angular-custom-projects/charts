@@ -15,6 +15,7 @@ import {MenuListItemComponent} from './menu-list-item/menu-list-item.component';
 import {HomeComponent} from './home/home.component';
 import {AreaChartComponent} from './area-chart/area-chart.component';
 import {StackedAreaChartComponent} from './stacked-area-chart/stacked-area-chart.component';
+import { NormalizedAreaChartComponent } from './normalized-area-chart/normalized-area-chart.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import {StackedAreaChartComponent} from './stacked-area-chart/stacked-area-chart
         MenuListItemComponent,
         HomeComponent,
         AreaChartComponent,
-        StackedAreaChartComponent
+        StackedAreaChartComponent,
+        NormalizedAreaChartComponent
     ],
     imports: [
         BrowserModule,
