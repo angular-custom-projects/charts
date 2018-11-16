@@ -1,5 +1,6 @@
 import {ChangeDetectorRef, Component, OnDestroy} from '@angular/core';
 import {MediaMatcher} from '@angular/cdk/layout';
+import {NavItem} from './nav-item';
 
 @Component({
     selector: 'app-root',
@@ -9,9 +10,103 @@ import {MediaMatcher} from '@angular/cdk/layout';
 export class AppComponent implements OnDestroy {
     opened = true;
 
-    mobileQuery: MediaQueryList;
+    navItems: NavItem[] = [
+        {
+            displayName: 'Line / Area Charts',
+            iconName: 'show_chart',
+            children: [
+                {
+                    displayName: 'Line Chart',
+                    iconName: '',
+                    route: 'line-chart'
+                },
+                {
+                    displayName: 'Area Chart',
+                    iconName: '',
+                    route: 'area-chart'
+                },
+                {
+                    displayName: 'Stacked Area Chart',
+                    iconName: '',
+                    route: 'stacked-area-chart'
+                },
+                {
+                    displayName: 'Normalized Area Chart',
+                    iconName: '',
+                    route: 'normalized-area-chart'
+                }
+            ]
+        },
+        {
+            displayName: 'Pie Charts',
+            iconName: 'pie_chart',
+            children: [
+                {
+                    displayName: 'Pie Chart',
+                    iconName: '',
+                    route: 'pie-chart'
+                },
+                {
+                    displayName: 'Advanced Pie Chart',
+                    iconName: '',
+                    route: 'advanced-pie-chart'
+                },
+                {
+                    displayName: 'Pie Grid Chart',
+                    iconName: '',
+                    route: 'pie-grid-chart'
+                }
+            ]
+        },
+        {
+            displayName: 'Bar Charts',
+            iconName: 'bar_chart',
+            children: [
+                {
+                    displayName: 'Vertical Bar Chart',
+                    iconName: '',
+                    route: 'vertical-bar-chart'
+                },
+                {
+                    displayName: 'Horizontal Bar Chart',
+                    iconName: '',
+                    route: 'horizontal-bar-chart'
+                },
+                {
+                    displayName: 'Grouped Vertical Bar Chart',
+                    iconName: '',
+                    route: 'grouped-vertical-bar-chart'
+                },
+                {
+                    displayName: 'Grouped Horizontal Bar Chart',
+                    iconName: '',
+                    route: 'grouped-horizontal-bar-chart'
+                },
+                {
+                    displayName: 'Stacked Vertical Bar Chart',
+                    iconName: '',
+                    route: 'stacked-vertical-bar-chart'
+                },
+                {
+                    displayName: 'Stacked Horizontal Bar Chart',
+                    iconName: '',
+                    route: 'stacked-horizontal-bar-chart'
+                },
+                {
+                    displayName: 'Normalized Vertical Bar Chart',
+                    iconName: '',
+                    route: 'normalized-vertical-bar-chart'
+                },
+                {
+                    displayName: 'Normalized horizontal Bar Chart',
+                    iconName: '',
+                    route: 'normalized-horizontal-bar-chart'
+                }
+            ]
+        }
+    ];
 
-    fillerNav = Array.from({length: 50}, (_, i) => `Nav Item ${i + 1}`);
+    mobileQuery: MediaQueryList;
 
     private _mobileQueryListener: () => void;
 

@@ -1,6 +1,10 @@
-.center-title {
-    text-align: center;
-    margin-bottom: 80px;
+.site-brand {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.site-brand:hover{
+    color: #E0E0E0;
 }
 
 .main-container {
@@ -9,6 +13,10 @@
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.mat-toolbar {
+    background-color: #202124;
 }
 
 .fixed-mobile .toolbar {

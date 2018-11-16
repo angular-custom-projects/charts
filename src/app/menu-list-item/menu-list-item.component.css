@@ -1,0 +1,29 @@
+/*:host .mat-list-item.active {*/
+    /*background-color: green !important;*/
+/*}*/
+
+/*:host:hover .mat-list-item {*/
+    /*background-color: yellow !important;*/
+/*}*/
+
+.mat-list-item:hover {
+    background-color: #9E9E9E;
+    color: #ffffff;
+}
+
+.mat-list-item.active:not(.expanded) {
+    font-weight: bold;
+    border-left: 10px solid #5f6368;
+}
+
+.mat-list-item {
+    padding: 8px 0;
+}
+
+.mat-list-item .routeIcon {
+    margin-right: 20px;
+}
+
+.mat-icon {
+    margin-left: 20px;
+}
