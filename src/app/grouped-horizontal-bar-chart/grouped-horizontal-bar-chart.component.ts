@@ -1,20 +1,20 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-grouped-vertical-bar-chart',
-    templateUrl: './grouped-vertical-bar-chart.component.html',
-    styleUrls: ['./grouped-vertical-bar-chart.component.css']
+  selector: 'app-grouped-horizontal-bar-chart',
+  templateUrl: './grouped-horizontal-bar-chart.component.html',
+  styleUrls: ['./grouped-horizontal-bar-chart.component.css']
 })
-export class GroupedVerticalBarChartComponent implements OnInit {
+export class GroupedHorizontalBarChartComponent implements OnInit {
 // options
     showXAxis = true;
     showYAxis = true;
     gradient = false;
     showLegend = true;
     showXAxisLabel = true;
-    xAxisLabel = 'Group Name';
+    xAxisLabel = 'Color Value';
     showYAxisLabel = true;
-    yAxisLabel = 'Color Value';
+    yAxisLabel = 'Group Name';
 
     colorScheme = {
         domain: [

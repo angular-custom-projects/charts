@@ -1,0 +1,17 @@
+<div class="chart-container">
+  <h1 class="text-center">Grouped Horizontal Bar Chart Example</h1>
+  <ngx-charts-bar-horizontal-2d
+          [scheme]="colorScheme"
+          [results]="multi"
+          [gradient]="gradient"
+          [xAxis]="showXAxis"
+          [yAxis]="showYAxis"
+          [legend]="showLegend"
+          legendTitle="Colors"
+          [showXAxisLabel]="showXAxisLabel"
+          [showYAxisLabel]="showYAxisLabel"
+          [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel"
+          (select)="onSelect($event)">
+  </ngx-charts-bar-horizontal-2d>
+</div>

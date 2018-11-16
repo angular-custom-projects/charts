@@ -13,6 +13,7 @@ import {PieGridChartComponent} from './pie-grid-chart/pie-grid-chart.component';
 import {VerticalBarChartComponent} from './vertical-bar-chart/vertical-bar-chart.component';
 import {HorizontalBarChartComponent} from './horizontal-bar-chart/horizontal-bar-chart.component';
 import {GroupedVerticalBarChartComponent} from './grouped-vertical-bar-chart/grouped-vertical-bar-chart.component';
+import {GroupedHorizontalBarChartComponent} from './grouped-horizontal-bar-chart/grouped-horizontal-bar-chart.component';
 
 
 const appRoutes: Routes = [
@@ -27,6 +28,7 @@ const appRoutes: Routes = [
     {path: 'vertical-bar-chart', component: VerticalBarChartComponent},
     {path: 'horizontal-bar-chart', component: HorizontalBarChartComponent},
     {path: 'grouped-vertical-bar-chart', component: GroupedVerticalBarChartComponent},
+    {path: 'grouped-horizontal-bar-chart', component: GroupedHorizontalBarChartComponent},
     {path: '**', component: PageNotFoundComponent}
 ];
 
