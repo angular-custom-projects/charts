@@ -18,8 +18,9 @@ import {StackedAreaChartComponent} from './stacked-area-chart/stacked-area-chart
 import {NormalizedAreaChartComponent} from './normalized-area-chart/normalized-area-chart.component';
 import {PieChartComponent} from './pie-chart/pie-chart.component';
 import {AdvancedPieChartComponent} from './advanced-pie-chart/advanced-pie-chart.component';
-import { PieGridChartComponent } from './pie-grid-chart/pie-grid-chart.component';
-import { VerticalBarChartComponent } from './vertical-bar-chart/vertical-bar-chart.component';
+import {PieGridChartComponent} from './pie-grid-chart/pie-grid-chart.component';
+import {VerticalBarChartComponent} from './vertical-bar-chart/vertical-bar-chart.component';
+import {HorizontalBarChartComponent} from './horizontal-bar-chart/horizontal-bar-chart.component';
 
 @NgModule({
     declarations: [
@@ -34,7 +35,8 @@ import { VerticalBarChartComponent } from './vertical-bar-chart/vertical-bar-cha
         PieChartComponent,
         AdvancedPieChartComponent,
         PieGridChartComponent,
-        VerticalBarChartComponent
+        VerticalBarChartComponent,
+        HorizontalBarChartComponent
     ],
     imports: [
         BrowserModule,
