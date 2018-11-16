@@ -14,6 +14,7 @@ import {VerticalBarChartComponent} from './vertical-bar-chart/vertical-bar-chart
 import {HorizontalBarChartComponent} from './horizontal-bar-chart/horizontal-bar-chart.component';
 import {GroupedVerticalBarChartComponent} from './grouped-vertical-bar-chart/grouped-vertical-bar-chart.component';
 import {GroupedHorizontalBarChartComponent} from './grouped-horizontal-bar-chart/grouped-horizontal-bar-chart.component';
+import {StackedVarticalBarChartComponent} from './stacked-vartical-bar-chart/stacked-vartical-bar-chart.component';
 
 
 const appRoutes: Routes = [
@@ -29,6 +30,7 @@ const appRoutes: Routes = [
     {path: 'horizontal-bar-chart', component: HorizontalBarChartComponent},
     {path: 'grouped-vertical-bar-chart', component: GroupedVerticalBarChartComponent},
     {path: 'grouped-horizontal-bar-chart', component: GroupedHorizontalBarChartComponent},
+    {path: 'stacked-vertical-bar-chart', component: StackedVarticalBarChartComponent},
     {path: '**', component: PageNotFoundComponent}
 ];
 
