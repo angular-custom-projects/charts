@@ -13,6 +13,7 @@ import {LineChartComponent} from './line-chart/line-chart.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import { MenuListItemComponent } from './menu-list-item/menu-list-item.component';
 import { HomeComponent } from './home/home.component';
+import { AreaChartComponent } from './area-chart/area-chart.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component';
         LineChartComponent,
         PageNotFoundComponent,
         MenuListItemComponent,
-        HomeComponent
+        HomeComponent,
+        AreaChartComponent
     ],
     imports: [
         BrowserModule,
