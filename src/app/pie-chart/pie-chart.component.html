@@ -1,0 +1,10 @@
+<div class="chart-container">
+  <h1 class="text-center">Pie Chart Example</h1>
+  <ngx-charts-pie-chart  [scheme]="colorScheme"
+                         [results]="multi"
+                         [gradient]="gradient"
+                         [legend]="showLegend"
+                         legendTitle="Colors"
+                         [doughnut]="true"
+                         (select)="onSelect($event)"></ngx-charts-pie-chart>
+</div>

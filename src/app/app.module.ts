@@ -16,6 +16,7 @@ import {HomeComponent} from './home/home.component';
 import {AreaChartComponent} from './area-chart/area-chart.component';
 import {StackedAreaChartComponent} from './stacked-area-chart/stacked-area-chart.component';
 import { NormalizedAreaChartComponent } from './normalized-area-chart/normalized-area-chart.component';
+import { PieChartComponent } from './pie-chart/pie-chart.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { NormalizedAreaChartComponent } from './normalized-area-chart/normalized
         HomeComponent,
         AreaChartComponent,
         StackedAreaChartComponent,
-        NormalizedAreaChartComponent
+        NormalizedAreaChartComponent,
+        PieChartComponent
     ],
     imports: [
         BrowserModule,
