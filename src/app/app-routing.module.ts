@@ -6,12 +6,14 @@ import {AppComponent} from './app.component';
 import {LineChartComponent} from './line-chart/line-chart.component';
 import {HomeComponent} from './home/home.component';
 import {AreaChartComponent} from './area-chart/area-chart.component';
+import {StackedAreaChartComponent} from './stacked-area-chart/stacked-area-chart.component';
 
 
 const appRoutes: Routes = [
     {path: '', component: HomeComponent, pathMatch: 'full'},
     {path: 'line-chart', component: LineChartComponent},
     {path: 'area-chart', component: AreaChartComponent},
+    {path: 'stacked-area-chart', component: StackedAreaChartComponent},
     {path: '**', component: PageNotFoundComponent}
 ];
 
